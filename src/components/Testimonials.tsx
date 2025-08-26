@@ -82,7 +82,7 @@ const Testimonials: React.FC = () => {
           <div className="grid md:grid-cols-3 gap-6">
             {visibleTestimonials.map((testimonial, index) => (
               <Card key={index} title={testimonial.name} description={testimonial.role}>
-                <p className="text-gray-700 mt-4">"{testimonial.content}"</p>
+                <p className="text-gray-700 mt-4">{testimonial.content}</p>
               </Card>
             ))}
           </div>
