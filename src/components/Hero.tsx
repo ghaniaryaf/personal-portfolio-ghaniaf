@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
       className="min-h-screen flex items-center justify-center bg-gray-50 pt-16"
     >
       <div className="container mx-auto px-6 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">John Doe</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">Ghani Arya Ferdyansyah</h1>
         <h2 className="text-2xl md:text-3xl text-gray-600 mb-8">
           Frontend Developer
         </h2>

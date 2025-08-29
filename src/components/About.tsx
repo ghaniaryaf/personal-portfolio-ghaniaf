@@ -6,7 +6,10 @@ const About: React.FC = () => {
   return (
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-12">About Me</h2>
+        <h2 className="text-3xl font-bold text-center mb-6">About Me</h2>
+        <div>
+          <img className="h-60 rounded-full mx-auto mb-6" src="https://i.pinimg.com/736x/8c/dd/7d/8cdd7de1fe7e1dc44c19a36cb861acbc.jpg" alt="ghani-foto" />
+        </div>
         <div className="grid md:grid-cols-2 gap-8">
           <Card 
             title="Background" 
