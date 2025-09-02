@@ -13,7 +13,7 @@ const About: React.FC = () => {
             src="https://i.pinimg.com/736x/8c/dd/7d/8cdd7de1fe7e1dc44c19a36cb861acbc.jpg"
             alt="ghani-foto"
           />
-          <div className="space-y-6 mt-12">
+          <div className="space-y-6 flex flex-col justify-center">
             <Card
               title="Background"
               description="I'm a passionate frontend developer with 5 years of experience creating web applications."
